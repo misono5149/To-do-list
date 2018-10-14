@@ -1,0 +1,62 @@
+#title{
+    align-self: auto;
+}
+
+#list { 
+    list-style:none;
+    padding-left:2px;
+    display:inline;
+}
+#context{
+    height: auto; 
+    line-height: normal;
+    padding: .8em .5em; 
+    margin: 0 10px 20px;
+}
+p > label#todo{
+    width: 100px; 
+    height: auto; 
+    line-height: normal;
+    margin: 0 10px 20px;
+    font-size : 20px;
+    text-align: center;
+}
+p > input#context {
+    float: left;
+    width: 320px;
+  }
+p > button#add{
+    line-height: normal; 
+    padding: .8em .5em; 
+    border: 0px;
+    font-size: 15px;
+
+}
+p > button#sort{
+    line-height: normal; 
+    padding: .8em .5em; 
+
+    border: 0px;
+    font-size: 15px;
+}
+li > label#con {
+    font-size: 30px;
+    line-height: 40px;
+    width: 237px;
+    margin: 0 10px 20px;
+    padding: 0 0 0 10px;
+  }
+li > label#timestamp {
+    font-size: 4px;
+    line-height: 40px;
+    width: 237px;
+    margin: 0 10px 20px;
+    padding: 0 0 0 10px;
+  }
+li > button{
+    font-size: 10px;
+    line-height: 20px;
+    width:30px;
+    padding: 0 0 0 0px;
+    margin : 0 10px 0;
+}
